@@ -17,11 +17,11 @@ A repository for dictionaries to be used with the Prosodylab-Aligner
 
 The above files are dictionaries that are ready for use with the Prosodylab-Aligner. In order to use them correctly, you will have to specify which dictionary you want to use, and train the Prosodylab-Aligner on a corresponding set of language data, like so:
 
-  $ ./align.py -d en_dictionary.txt -t training/data/directory soundfile/directory
+  > $ ./align.py -d en_dictionary.txt -t training/data/directory soundfile/directory
 
 All dictionaries have entries of the form:
 
-  WORD P H O N E M E S
+  > WORD P H O N E M E S
 
 where each word is written in all-caps and is followed by a space and the list of its phonemes.
 
